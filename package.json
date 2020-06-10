@@ -23,21 +23,21 @@
   },
   "homepage": "https://github.com/mq-Creator/my-scaffold#readme",
   "devDependencies": {
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^4.3.0",
     "merge": "^1.2.1",
     "vue-loader": "^15.7.0"
   },
   "dependencies": {
-    "webpack": "^4.32.2",
-    "webpack-dev-middleware": "^3.7.0",
+    "chalk": "^4.1.0",
+    "commander": "^2.20.3",
+    "download-git-repo": "^3.0.2",
     "express": "^4.17.1",
-    "commander": "^2.20.0",
-    "chalk": "^2.4.2",
-    "download-git-repo": "^2.0.0",
-    "handlebars": "^4.1.2",
-    "inquirer": "^6.3.1",
-    "log-symbols": "^3.0.0",
-    "ora": "^3.4.0",
-    "shelljs": "^0.8.3"
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4",
+    "shelljs": "^0.8.3",
+    "webpack": "^4.32.2",
+    "webpack-dev-middleware": "^3.7.0"
   }
 }
