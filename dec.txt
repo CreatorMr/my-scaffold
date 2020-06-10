@@ -1,0 +1,40 @@
+### 全局安装  npm install mqscaff -g
+
+
+commander.js：可以自动的解析命令和参数，用于处理用户输入的命令。
+
+download-git-repo：下载并提取 git 仓库，用于下载项目模板。
+
+Inquirer.js：通用的命令行用户界面集合，用于和用户进行交互。
+
+handlebars.js：模板引擎，将用户提交的信息动态填充到文件中。
+
+ora：下载过程久的话，可以用于显示下载中的动画效果。
+
+chalk：可以给终端的字体加上颜色。用于高亮终端打印出来的信息。
+
+log-symbols：可以在终端上显示出 √ 或 × 等的图标。
+
+fs：node内置的文件处理模块。
+
+path：node内置的路径处理、解析模块。
+
+child_process：node中创建子进程模块。
+
+npm install commander download-git-repo inquirer handlebars ora chalk log-symbols shelljs -S
+
+
+用   child_process 去判断git 相关 add commit push pull 
+
+inquire  命令行交互工具
+{
+  type: String, // 表示提问的类型，下文会单独解释
+  name: String, // 在最后获取到的answers回答对象中，作为当前这个问题的键
+  message: String|Function, // 打印出来的问题标题，如果为函数的话
+  default: String|Number|Array|Function, // 用户不输入回答时，问题的默认值。或者使用函数来return一个默认值。假如为函数时，函数第一个参数为当前问题的输入答案。
+  choices: Array|Function, // 给出一个选择的列表，假如是一个函数的话，第一个参数为当前问题的输入答案。为数组时，数组的每个元素可以为基本类型中的值。
+  validate: Function, // 接受用户输入，并且当值合法时，函数返回true。当函数返回false时，一个默认的错误信息会被提供给用户。
+  filter: Function, // 接受用户输入并且将值转化后返回填充入最后的answers对象内。
+  when: Function|Boolean, // 接受当前用户输入的answers对象，并且通过返回true或者false来决定是否当前的问题应该去问。也可以是简单类型的值。
+  pageSize: Number, // 改变渲染list,rawlist,expand或者checkbox时的行数的长度。
+}
