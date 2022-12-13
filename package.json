@@ -31,7 +31,7 @@
     "chalk": "^4.1.0",
     "commander": "^2.20.3",
     "download-git-repo": "^3.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "handlebars": "^4.7.6",
     "inquirer": "^7.1.0",
     "log-symbols": "^4.0.0",
